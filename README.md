@@ -11,7 +11,7 @@ docker 下 部署 webapi 网关：Kong
 表示可以用 kong-dashboad管理 kong
 * 填写 Kong node URL 时注意，ip地址需要使用 非 `localhost` 和 `127.0.0.1` 的内容，需要使用以及获取的ip地址，获取方式是在cmd中执行`ipconfig`,比如我获取的ip地址如下
 ![Markdown](http://i4.bvimg.com/599630/d049e9b5f064b8a2.png)
-看红色方框内ip地址，所以填写的kong node url 地址是：http://192.168.1.112:8001,然后执行save，显示如下界面
+看红色方框内ip地址，所以填写的kong node url 地址是：http://192.168.1.112:8001, 然后执行save，显示如下界面
 ![Markdown](http://i4.bvimg.com/599630/011019614b25b08e.png)
 表示kong安装以及kong-dashboad安装成功
 
